@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C9FCEBD41A3F6177006F0363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCEBD31A3F6177006F0363 /* AppDelegate.swift */; };
-		C9FCEBD61A3F6177006F0363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCEBD51A3F6177006F0363 /* ViewController.swift */; };
-		C9FCEBD91A3F6177006F0363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FCEBD71A3F6177006F0363 /* Main.storyboard */; };
 		C9FCEBDB1A3F6177006F0363 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FCEBDA1A3F6177006F0363 /* Images.xcassets */; };
 		C9FCEBDE1A3F6178006F0363 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FCEBDC1A3F6178006F0363 /* LaunchScreen.xib */; };
 		C9FCEBEA1A3F6178006F0363 /* HypnosisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCEBE91A3F6178006F0363 /* HypnosisterTests.swift */; };
+		C9FCEBF41A3F6301006F0363 /* HypnosisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCEBF31A3F6301006F0363 /* HypnosisView.swift */; };
+		C9FCEBF61A3F6A52006F0363 /* fsp-trans-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FCEBF51A3F6A52006F0363 /* fsp-trans-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		C9FCEBCE1A3F6177006F0363 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FCEBD21A3F6177006F0363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9FCEBD31A3F6177006F0363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9FCEBD51A3F6177006F0363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9FCEBD81A3F6177006F0363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9FCEBDA1A3F6177006F0363 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C9FCEBDD1A3F6178006F0363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C9FCEBE31A3F6178006F0363 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FCEBE81A3F6178006F0363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9FCEBE91A3F6178006F0363 /* HypnosisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypnosisterTests.swift; sourceTree = "<group>"; };
+		C9FCEBF31A3F6301006F0363 /* HypnosisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypnosisView.swift; sourceTree = "<group>"; };
+		C9FCEBF51A3F6A52006F0363 /* fsp-trans-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fsp-trans-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,7 @@
 		C9FCEBC51A3F6177006F0363 = {
 			isa = PBXGroup;
 			children = (
+				C9FCEBF51A3F6A52006F0363 /* fsp-trans-logo.png */,
 				C9FCEBD01A3F6177006F0363 /* Hypnosister */,
 				C9FCEBE61A3F6178006F0363 /* HypnosisterTests */,
 				C9FCEBCF1A3F6177006F0363 /* Products */,
@@ -78,11 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				C9FCEBD31A3F6177006F0363 /* AppDelegate.swift */,
-				C9FCEBD51A3F6177006F0363 /* ViewController.swift */,
-				C9FCEBD71A3F6177006F0363 /* Main.storyboard */,
 				C9FCEBDA1A3F6177006F0363 /* Images.xcassets */,
 				C9FCEBDC1A3F6178006F0363 /* LaunchScreen.xib */,
 				C9FCEBD11A3F6177006F0363 /* Supporting Files */,
+				C9FCEBF31A3F6301006F0363 /* HypnosisView.swift */,
 			);
 			path = Hypnosister;
 			sourceTree = "<group>";
@@ -192,9 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9FCEBD91A3F6177006F0363 /* Main.storyboard in Resources */,
 				C9FCEBDE1A3F6178006F0363 /* LaunchScreen.xib in Resources */,
 				C9FCEBDB1A3F6177006F0363 /* Images.xcassets in Resources */,
+				C9FCEBF61A3F6A52006F0363 /* fsp-trans-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9FCEBD61A3F6177006F0363 /* ViewController.swift in Sources */,
 				C9FCEBD41A3F6177006F0363 /* AppDelegate.swift in Sources */,
+				C9FCEBF41A3F6301006F0363 /* HypnosisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9FCEBD71A3F6177006F0363 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9FCEBD81A3F6177006F0363 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9FCEBDC1A3F6178006F0363 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
