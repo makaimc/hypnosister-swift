@@ -13,6 +13,7 @@
 		C9FCEBEA1A3F6178006F0363 /* HypnosisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCEBE91A3F6178006F0363 /* HypnosisterTests.swift */; };
 		C9FCEBF41A3F6301006F0363 /* HypnosisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCEBF31A3F6301006F0363 /* HypnosisView.swift */; };
 		C9FCEBF61A3F6A52006F0363 /* fsp-trans-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C9FCEBF51A3F6A52006F0363 /* fsp-trans-logo.png */; };
+		C9FCEBF81A3F6BDA006F0363 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C9FCEBF71A3F6BDA006F0363 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C9FCEBE91A3F6178006F0363 /* HypnosisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypnosisterTests.swift; sourceTree = "<group>"; };
 		C9FCEBF31A3F6301006F0363 /* HypnosisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypnosisView.swift; sourceTree = "<group>"; };
 		C9FCEBF51A3F6A52006F0363 /* fsp-trans-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fsp-trans-logo.png"; sourceTree = "<group>"; };
+		C9FCEBF71A3F6BDA006F0363 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C9FCEBDC1A3F6178006F0363 /* LaunchScreen.xib */,
 				C9FCEBD11A3F6177006F0363 /* Supporting Files */,
 				C9FCEBF31A3F6301006F0363 /* HypnosisView.swift */,
+				C9FCEBF71A3F6BDA006F0363 /* README.md */,
 			);
 			path = Hypnosister;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FCEBF81A3F6BDA006F0363 /* README.md in Sources */,
 				C9FCEBD41A3F6177006F0363 /* AppDelegate.swift in Sources */,
 				C9FCEBF41A3F6301006F0363 /* HypnosisView.swift in Sources */,
 			);
