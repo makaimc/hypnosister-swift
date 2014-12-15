@@ -5,4 +5,4 @@ at the
 
 The app produces a screenshot like the following:
 
-<img src="hypnosister.png">
+<img src="hypnosister.jpg">
